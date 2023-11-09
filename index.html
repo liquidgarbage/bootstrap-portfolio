@@ -39,7 +39,8 @@
     <section id="hero" class="p-1 mb-4 bg-body-tertiary rounded-3">
         <div class="container-fluid py-5">
             <h1 class="display-5 fw-bold">Milo Theobald</h1>
-            <img id="face" src="images/face.jpeg" alt="white person with short hair wearing sweater vest with cat on lap">
+            <img id="face" src="images/face.jpeg"
+                alt="white person with short hair wearing sweater vest with cat on lap">
             <p class="col-md-8 fs-4"> I'm a web developer in training with EDX front-end bootcamp.
             </p>
             <button class="btn btn-success btn-lg" type="button">My work</button>
@@ -49,91 +50,102 @@
     <!-- WORK -->
     <section class="work-cards" class="container-fluid" id="work">
         <h2>My Work</h2>
-        <!-- access card -->
-        <div class="row">
-            <div class="cardContainer p-1 col-lg-6 col-md-12">
-                <img src="images/access.png" class="object-fit-scale border rounded" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Accessible HTML Project</h5>
-                    <p class="card-text">I redeisnged the HTML and CSS to be accesible to screen readers, and
-                        improve SEO.</p>
-                    <a href="https://liquidgarbage.github.io/01-accessible-marketing-website/"
-                        class="btn btn-success">See project</a>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <!-- access -->
+            <div class="col">
+                <div class="card">
+                    <img src="images/access.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Accessible HTML Project</h5>
+                        <p class="card-text">I redeisnged the HTML and CSS to be accesible to screen readers, and
+                            improve SEO.</p>
+                        <a href="https://liquidgarbage.github.io/01-accessible-marketing-website/"
+                            class="btn btn-success">See project</a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- gift card -->
-        <div class="cardContainer p-1 col-lg-6 col-md-12">
-            <img src="images/gift-cover.jpg" class="object-fit-cover border rounded" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Gift Website</h5>
-                <p class="card-text">I made a birthday gift site for my cat</p>
-                <a href="https://liquidgarbage.github.io/birthday-gift-site/" class="btn btn-success">See
-                    project</a>
+            <!-- gift -->
+            <div class="col">
+                <div class="card">
+                    <img src="images/gift-cover.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Gift Website</h5>
+                        <p class="card-text">I made a birthday gift site for my cat</p>
+                        <a href="https://liquidgarbage.github.io/birthday-gift-site/" class="btn btn-success">See
+                            project</a>
+                    </div>
+                </div>
             </div>
-        </div>
-        <!-- google card -->
-        <div class="cardContainer p-1 col-lg-6 col-md-12">
-            <img src="/images/google.png" class="object-fit-cover border rounded" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Google Clone</h5>
-                <p class="card-text">I tested my HTML and CSS skills by making a Google clone</p>
-                <a href="https://liquidgarbage.github.io/google-clone/" class="btn btn-success">See
-                    project</a>
+            <!-- google -->
+            <div class="col">
+                <div class="card">
+                    <img src="/images/google.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Google Clone</h5>
+                        <p class="card-text">I tested my HTML and CSS skills by making a Google clone</p>
+                        <a href="https://liquidgarbage.github.io/google-clone/" class="btn btn-success">See project</a>
+                    </div>
+                </div>
             </div>
-        </div>
-        </div>
-        <!-- prework card -->
-        <div class="cardContainer p-1 col-lg-6 col-md-12">
-            <img src="/images/prework.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Prework Study Guide</h5>
-                <p class="card-text">I made a prework study guide for the EDX bootcamp</p>
-                <a href="https://liquidgarbage.github.io/prework-study-guide/" class="btn btn-success">See
-                    project</a>
+            <!-- pre-work -->
+            <div class="col">
+                <div class="card">
+                    <img src="/images/prework.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Prework Study Guide</h5>
+                        <p class="card-text">I made a prework study guide for the EDX bootcamp</p>
+                        <a href="https://liquidgarbage.github.io/prework-study-guide/" class="btn btn-success">See
+                            project</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- SKILLS -->
-    <section class="skills" id="skills">
+    <section class="skills">
         <h2>Skills I will gain from the bootcamp</h2>
-        <div class="skills-card" style="width: 18rem;">
-            <div class="skills-card-header">
-                Front-end fundamentals
-            </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">HTML</li>
-                <li class="list-group-item">JavaScript</li>
-                <li class="list-group-item">CSS</li>
-                <li class="list-group-item">UX</li>
-                <li class="list-group-item">Git</li>
-                <li class="list-group-item">Github</li>
-                <li class="list-group-item">Information architecture</li>
-                <li class="list-group-item">User experience design</li>
-            </ul>
-        </div>
-        <div class="skills-card" style="width: 18rem;">
-            <div class="skills-card-header">
-                Modern front-end frameworks
-            </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">Structuring, positioning, and optimisation of web page content</li>
-                <li class="list-group-item">React. js</li>
-                <li class="list-group-item">Netlify</li>
-            </ul>
-        </div>
-        <div class="skills-card" style="width: 18rem;">
-            <div class="skills-card-header">
-                Developing with APIs
-            </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">Javascript framework</li>
-                <li class="list-group-item">DOM manipulation</li>
-                <li class="list-group-item">Web-based applications</li>
-                <li class="list-group-item">Data extraction and retrieval</li>
-            </ul>
-        </div>
+        <div class="row">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="skills-card" style="width: 18rem;">
+                    <div class="skills-card-header">
+                        Front-end fundamentals
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">HTML</li>
+                        <li class="list-group-item">JavaScript</li>
+                        <li class="list-group-item">CSS</li>
+                        <li class="list-group-item">UX</li>
+                        <li class="list-group-item">Git</li>
+                        <li class="list-group-item">Github</li>
+                        <li class="list-group-item">Information architecture</li>
+                        <li class="list-group-item">User experience design</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <div class="skills-card" style="width: 18rem;">
+                        <div class="skills-card-header">
+                            Modern front-end frameworks
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Structuring, positioning, and optimisation of web page content
+                            </li>
+                            <li class="list-group-item">React. js</li>
+                            <li class="list-group-item">Netlify</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="skills-card" style="width: 18rem;">
+                            <div class="skills-card-header">
+                                Developing with APIs
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Javascript framework</li>
+                                <li class="list-group-item">DOM manipulation</li>
+                                <li class="list-group-item">Web-based applications</li>
+                                <li class="list-group-item">Data extraction and retrieval</li>
+                            </ul>
+                        </div>
     </section>
     <!-- ABOUT AND CONTACT -->
     <section id="contact">
@@ -147,7 +159,7 @@
 
     <!-- FOOTER -->
     <footer>
-        <a class="fa-regular fa-envelope fa-2x fa-display-flex href="mailto:milotheo91@gmail.com"></a>
+        <a class="fa-regular fa-envelope fa-2x" href="mailto:milotheo91@gmail.com"></a>
         <a class="fa-brands fa-linkedin fa-2x" href="http://linkedin.com/in/milo-theobald"></a>
         <a class="fa-brands fa-github fa-2x" href="https://github.com/liquidgarbage"></a>
     </footer>

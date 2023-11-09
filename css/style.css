@@ -12,7 +12,10 @@ body {
     background-color: var(--cream);
 }
 
-
+h2 {
+text-align: center;
+padding: 2rem;
+}
 
 /* NAVBAR  */
 nav {
@@ -33,11 +36,15 @@ nav {
 
 /* WORK  */
 .card-img-top {
-    width: 400px;
-    height: cover;
+    padding:2%;
+    height: 400px;
+    width: 100%;
+    object-fit: scale-down;
+
 }
 
 /* SKILLS  */
+
 
 /* ABOUT AND CONTACT  */
 
